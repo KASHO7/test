@@ -1,0 +1,164 @@
+@ -0,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed a Nerd, Fuel the Facts</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f9;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.3rem;
+        }
+
+        .donation-levels div {
+            background: #fff;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-left: 5px solid #008080;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .testimonial {
+            background-color: #e9f5ff;
+            border-left: 4px solid #3399cc;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: #ffeaea;
+            border-top: 2px dashed #ff4d4d;
+        }
+
+        .cta button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta button:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            padding: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🧠 Feed a Nerd, Fuel the Facts 🍜</h1>
+        <p>Because trivia won't fill a stomach—but your donation might.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>🔬 Mission Statement</h2>
+            <p>
+                Every day, I battle hunger and sleep deprivation to bring you niche facts about
+                time travel, wormholes, and why your toast always lands butter-side down.
+                But research costs energy—and ramen.
+            </p>
+        </section>
+
+        <section>
+            <h2>🍲 Where Your Donation Goes</h2>
+            <ul>
+                <li><strong>60%</strong> – Food for humans</li>
+                <li><strong>30%</strong> – Food for thought (books, Wikipedia rabbit holes, quantum foam)</li>
+                <li><strong>10%</strong> – Nerd emergency fund (broken glasses, dead charger cables)</li>
+            </ul>
+        </section>
+
+        <section class="donation-levels">
+            <h2>💸 Suggested Donations</h2>
+            <div>
+                <strong>$3 – "Coffee for Code"</strong><br />
+                Enough caffeine to deep-dive into Schrödinger's litter box.
+            </div>
+            <div>
+                <strong>$7 – "Spicy Ramen Supporter"</strong><br />
+                Elevate dinner from "packet" to "flavor packet."
+            </div>
+            <div>
+                <strong>$15 – "Premium Fact Dispenser"</strong><br />
+                Supports the dangerous habit of learning *even more*.
+            </div>
+            <div>
+                <strong>$50 – "Patron Saint of Paradoxes"</strong><br />
+                I'll literally name a subatomic particle after you. Probably.
+            </div>
+        </section>
+
+        <section>
+            <h2>🗣️ Testimonials</h2>
+            <div class="testimonial">"Now I understand black holes *and* I helped someone eat lunch." – Not My Mom</div>
+            <div class="testimonial">"He explained string theory using nachos. Take my money." – Hungry Physicist</div>
+        </section>
+
+        <section class="cta">
+            <h2>💥 Be a Nerd Hero</h2>
+            <p>Help me keep the facts flowing and the fridge less echoey.</p>
+            <button onclick="alert('Pretend this sent money.')">Donate Now</button>
+            <p><small>*Or live with the knowledge that somewhere, a nerd just Googled "can ramen be eaten cold?"</small>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 Feed the Nerd Initiative. All jokes intended.
+    </footer>
+
+</body>
+
+</html>
